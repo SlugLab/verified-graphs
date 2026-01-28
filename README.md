@@ -1,6 +1,6 @@
 # verified-graphs
 
-This crate contains code for graphs (undirected and directied) verified from
+This crate contains code for graphs (undirected and directed) verified from
 first principles using [Verus](https://github.com/verus-lang/verus). The graph
 specifications and proofs strictly follow those found in the [classic text on graph theory](https://www.cambridge.org/us/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/graph-theory?format=PB&isbn=9780521794893)
 by W. T. Tutte. The code only covers finite graphs for the time being.
