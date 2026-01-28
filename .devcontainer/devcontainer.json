@@ -1,0 +1,21 @@
+{
+  "name": "verified-graphs-dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "verus-lang.verus-analyzer",
+      ],
+      "settings": {
+        "verus-analyzer.verus.verusBinary": "/home/dev/verus/source/target-verus/release/verus",
+        "verus-analyzer.procMacro.enable": false // Re-enable when verus-analyzer's proc-macro API is bumped
+      }
+    }
+  }
+}
