@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT"
 description = "Graphs verified from first principles in Verus"
 repository = "https://github.com/SlugLab/verified-graphs"
-readme = "../README.md"
+readme = "README.md"
 keywords = ["graphs", "graph theory", "verus", "verification"]
 
 [dependencies]
